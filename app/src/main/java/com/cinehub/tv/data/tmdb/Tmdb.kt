@@ -149,7 +149,7 @@ class TmdbClient(private val settingsProvider: suspend () -> AppSettings) {
         } ?: emptyList()
 
         val regionBlock = o.obj("watch/providers")?.obj("results")?.obj(s.region)
-        val providers = buildList {
+        val providers = buildList<Provider> {
             listOf("flatrate" to "Подписка", "free" to "Бесплатно", "ads" to "С рекламой", "rent" to "Аренда", "buy" to "Покупка")
                 .forEach { (k, label) ->
                     regionBlock?.arr(k)?.forEach { p ->
