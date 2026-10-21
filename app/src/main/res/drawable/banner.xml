@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Баннер 320x180 для лаунчера Android TV -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <path android:fillColor="#151A22" android:pathData="M0,0h320v180h-320z" />
+    <path
+        android:fillColor="#E5A00D"
+        android:pathData="M40,60h70a8,8 0,0 1,8 8v44a8,8 0,0 1,-8 8h-70a8,8 0,0 1,-8 -8v-44a8,8 0,0 1,8 -8z" />
+    <path android:fillColor="#151A22" android:pathData="M66,74l24,16l-24,16z" />
+    <!-- C -->
+    <path android:fillColor="#FFFFFF" android:pathData="M150,72h26v8h-18v20h18v8h-26z" />
+    <!-- H -->
+    <path android:fillColor="#FFFFFF" android:pathData="M184,72h8v14h14v-14h8v36h-8v-14h-14v14h-8z" />
+    <!-- underline -->
+    <path android:fillColor="#E5A00D" android:pathData="M150,116h64v4h-64z" />
+</vector>
